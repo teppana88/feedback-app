@@ -1,23 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
-
 function App() {
+  const title = "Blog post";
+  const body = "This is my blog post";
+  const comments = [
+    { id: 1, text: "comment 1" },
+    { id: 2, text: "comment 2" },
+    { id: 3, text: "comment 3" },
+    { id: 4, text: "comment 4" },
+  ];
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='container'>
+      <h1>Hello My App</h1>
+      <h3>
+        {title} (comments: {comments.length})
+      </h3>
+      <p>{body}</p>
+      <ul>
+        {comments.map((comment, index) => (
+          <li key={index}>{comment.text}</li>
+        ))}
+      </ul>
     </div>
   );
 }
