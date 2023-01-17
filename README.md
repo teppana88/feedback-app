@@ -54,7 +54,7 @@ Some other basic React scripts also included.
 
 ## Contact
 
-Your Name - [@teemupiirainen](https://twitter.com/teemupiirainen) - teemu.piirainen[at].awave.fi
+About me - [@teemupiirainen](https://twitter.com/teemupiirainen) - teemu.piirainen[at].awave.fi
 
 Project Link: [https://github.com/teppana88/feedback-app.git](https://github.com/teppana88/feedback-app.git)
 
