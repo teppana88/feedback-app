@@ -1,0 +1,24 @@
+{
+  "feedback": [
+    {
+      "text": "Some sample feedback",
+      "rating": 10,
+      "id": 2
+    },
+    {
+      "text": "Excellent service!",
+      "rating": 9,
+      "id": 3
+    },
+    {
+      "text": "Well done, they build an iOS app for our internal use. Highly recommended!!",
+      "rating": 10,
+      "id": 5
+    },
+    {
+      "text": "Thanks for your service, super good!!!",
+      "rating": 10,
+      "id": 6
+    }
+  ]
+}

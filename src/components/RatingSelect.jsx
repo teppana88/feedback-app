@@ -9,10 +9,12 @@ function RatingSelect({ select }) {
   useEffect(() => {
     setSelected(feedbackEdit.item.rating)
   }, [feedbackEdit])
+
   const handleChange = (e) => {
     setSelected(+e.target.value)
     select(+e.target.value)
   }
+
   return (
     <ul className='rating'>
       {Array.from({ length: 10 }, (_, i) => (
